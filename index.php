@@ -21,8 +21,9 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/main.js'
     <!-- main container -->
     <div class='main_container'>
         <!-- header -->
-        <div class='header'>Header</div>
-    
+        <div class='header'>
+<jdoc:include type="modules" name="position-1" style="xhtml" />
+        </div>
         <!-- mid container - includes main content area and right sidebar -->
         <div class='mid_container'>
     
@@ -30,9 +31,17 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/main.js'
             <div class='main_content_area'>
                 Main Content Area
 
+<jdoc:include type="modules" name="position-1" style="xhtml" />
 <jdoc:include type="modules" name="position-3" style="xhtml" />
+a
+<a>=====================================================================</a>
+b
 <jdoc:include type="message" />
+<a>=====================================================================</a>
+c
 <jdoc:include type="component" />
+<a>=====================================================================</a>
+d
 <jdoc:include type="modules" name="position-2" style="none" />
 
             </div>

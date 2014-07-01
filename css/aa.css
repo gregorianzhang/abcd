@@ -2,15 +2,24 @@
     margin-left:auto;
     margin-right:auto;
     background: #FFFFCC;
+    width:940px;
+    max-width: 940px;
 }
 .header-nemu{
     background: red;
-    #float:right;
-    position: absolute;
-    right:40px;
-    bottom:0px;
+    #position: absolute;
+    position: relative;
+#    width: 550px;
+#    right:40px;
+#    bottom:-100px;
+    #margin-left: 200px;
+    margin-left: 25%;
+    top: 100px;
 }
 .header-logo{
+    position: absolute;
+    #width:200px;
+    width: 25%;
     float:left;
     background: blue;
 }
@@ -19,7 +28,7 @@
 }
 .main_content_area {
     float:left;
-    width:700px;
+    width:900px;
 }
 .right_sidebar {
     float:right;
@@ -28,7 +37,8 @@
 .header {
     height: 140px;
     #position: absolute;
-    #bottom:0px;
+    position: relative;
+#    overflow: auto;
 }
 .main_content_area,
 .right_sidebar,
@@ -40,5 +50,10 @@
 .header {
     border:1px solid #bbb;
 margin:20px 0px;
-
 }
+
+* {
+         -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                              }  

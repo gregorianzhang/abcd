@@ -1,0 +1,44 @@
+.main_container {
+    margin-left:auto;
+    margin-right:auto;
+    background: #FFFFCC;
+}
+.header-nemu{
+    background: red;
+    #float:right;
+    position: absolute;
+    right:40px;
+    bottom:0px;
+}
+.header-logo{
+    float:left;
+    background: blue;
+}
+.mid_container {
+    margin:20px 0px;
+}
+.main_content_area {
+    float:left;
+    width:700px;
+}
+.right_sidebar {
+    float:right;
+    width: 220px;
+}
+.header {
+    height: 140px;
+    #position: absolute;
+    #bottom:0px;
+}
+.main_content_area,
+.right_sidebar,
+.footer,
+.main_container,
+.container_pic,
+.container_b,
+.container_col,
+.header {
+    border:1px solid #bbb;
+margin:20px 0px;
+
+}
